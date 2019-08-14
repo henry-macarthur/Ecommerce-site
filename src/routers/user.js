@@ -15,7 +15,7 @@ const {sendWelcomeEmail, sendCancelationEmail} = require('../emails/account');
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
     'client_id': 'Af74EhqZAsPhAA3RcPQdNT3ongxP_9x3Fo9N_GLRkW3y1HHF-XQbFJ-m6VD-IrKsSRcG5B-bCbxgfGcl',
-    'client_secret': process.env.PAYPAL_SECRET//'EMNXW8Lco48WyJKnLUJ8BgIHXuDec5GJ0ArKRCO_ERG8c2BDRzjrIQUjywzaizV_CCm68wueI_GYu0z9'
+    'client_secret': process.env.PAYPAL_SECRET
   });
 
 router.post('/users/makePayment/:id', auth,  async (req, res) => {
