@@ -1,3 +1,14 @@
+# ABOUT
+This application is a functional e-commerce site targeted at users looking to find tutors, private coaches, or lessons near them. A user can create a post that has a description, price, and category. Other users can then see all of the most recent posts on the general feed, and can also search by category or price. Payment systems are supported using the PayPal payment SDK.
+
+# Technology Used
+## Backend:
+Node.js, Express, MongoDB, Mongoose, Javascript
+
+## FrontEnd
+Vue.js, HTML, CSS, Javascript
+
+
 # test
 
 ## Project setup
@@ -33,3 +44,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 npm run dev
 
 ````
+
+
